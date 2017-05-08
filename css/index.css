@@ -136,6 +136,11 @@ article
     color:rgb(156, 39, 176);
     letter-spacing: 0.02em;
 }
+article div div.Picbox ul li
+{
+    float:left;
+    padding-left: 5px;
+}
 article.box
 {
     font-family: 'Dancing Script','Comic Sans MS';
@@ -193,11 +198,7 @@ article h1,h2
     font-family: 'Satisfy';
     text-align: center;
 }
-article div div.Picbox ul li
-{
-    float:left;
-    padding-left: 5px;
-}
+
 
 
 
