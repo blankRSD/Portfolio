@@ -193,7 +193,7 @@ article h1,h2
     font-family: 'Satisfy';
     text-align: center;
 }
-article div.Picbox ul li
+article div div.Picbox ul li
 {
     float:left;
     padding-left: 5px;
