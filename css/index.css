@@ -112,31 +112,47 @@ section div.Picbox div.myPic
     border-radius: 0 20px 0 20px;
     box-shadow:4px 2px 11px 2px #888888;
 }
-article pre
+
+
+
+
+
+article
 {
     font-family: 'Dancing Script','Comic Sans MS';
     font-size: 25px;
     color:rgb(156, 39, 176);
     letter-spacing: 0.02em;
+    max-width: 600px;
+    display: flex;
+    margin:0 auto;
 }
-article pre a.mail
+article div
+{
+    width:600px;
+}
+article a.mail
 {
     text-decoration: none;
 }
-article pre span
+article span
 {
     font-size: 35px;
     color:#d81b60;
 }
-article pre img
+article img
 {
     height: 60px;
     width: 60px;
 }
-article pre span.ques
+article span.ques
 {
-    font-size: 30px;
+    font-size: 35px;
     color:#d81b60;
+}
+article ul li
+{
+    list-style: none;
 }
 
 article div.textbox
@@ -159,6 +175,8 @@ article h1,h2
     font-family: 'Satisfy';
     text-align: center;
 }
+
+
 
 form
 {
