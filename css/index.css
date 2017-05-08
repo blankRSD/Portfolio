@@ -10,12 +10,13 @@ body
 	padding:0px 0px;
     box-shadow: 0px 5px 10px 0px #888888;
 	margin:0 auto;
-
 }
 .clear
 {
     clear:both;
 }
+
+/*---------------------------------------------------------------*/
 header
 {
     background: rgba(118,154,99,0.82);
@@ -27,6 +28,37 @@ header
     height: 300px;
     box-shadow: 0px 5px 20px 0px #888888;
 }
+
+header h1
+{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    color:  rgba(255,255,255,1);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+header h1 span
+{
+    display: inline-block;
+    padding: 0.5em 0.5em;
+    border: rgba(255,255,255,0.95) solid 5px;
+    border-radius: 15px 0 15px 0;
+
+}
+header p
+{
+    text-align: center;
+    font-size: 21px;
+    font-weight: 600;
+    color:  rgba(255,255,255,0.95);
+    letter-spacing: 0.05em;
+    font-family: "Monotype Corsiva";
+}
+
+/*---------------------------------------------------------------*/
+
+
 nav ul
 {
     list-style: none;
@@ -61,32 +93,12 @@ nav ul li a:hover ,nav ul li a.selected
     background-color: rgba(169,169,169,0.3);
     border-radius: 0 0 7px 7px;
 }
-header h1
-{
-    text-align: center;
-    font-size: 36px;
-    font-weight: 500;
-    color:  rgba(255,255,255,1);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-}
-header h1 span
-{
-    display: inline-block;
-    padding: 0.5em 0.5em;
-    border: rgba(255,255,255,0.95) solid 5px;
-    border-radius: 15px 0 15px 0;
 
-}
-header p
-{
-    text-align: center;
-    font-size: 21px;
-    font-weight: 600;
-    color:  rgba(255,255,255,0.95);
-    letter-spacing: 0.05em;
-    font-family: "Monotype Corsiva";
-}
+
+/*---------------------------------------------------------------*/
+
+
+
 section h2
 {
     font-family: 'Comic Sans MS';
@@ -114,10 +126,17 @@ section div.Picbox div.myPic
 }
 
 
+/*---------------------------------------------------------------*/
 
 
 
 article
+{
+    font-family: 'Dancing Script','Comic Sans MS';
+    color:rgb(156, 39, 176);
+    letter-spacing: 0.02em;
+}
+article.box
 {
     font-family: 'Dancing Script','Comic Sans MS';
     font-size: 25px;
@@ -161,10 +180,9 @@ article div.textbox
     display: flex;
     margin:0 auto;
 }
-article div.textbox div.text
+article div.text
 {   
-    padding-bottom: 10px;
-    height: 150px;
+    padding: 10px;
     width:600px;
     font-family:'Comic Sans MS';
     font-size: 18px;
@@ -175,6 +193,15 @@ article h1,h2
     font-family: 'Satisfy';
     text-align: center;
 }
+article div.Picbox ul li
+{
+    float:left;
+    padding-left: 5px;
+}
+
+
+
+/*---------------------------------------------------------------*/
 
 
 
@@ -251,6 +278,13 @@ form [type="submit"]:hover
 {
       background: #aed581 
 }
+
+
+
+/*---------------------------------------------------------------*/
+
+
+
 footer
 {
     
