@@ -1,0 +1,245 @@
+body
+{
+    background-color:#bfbfbf;
+}
+#wrap
+{
+	/*background: #bfbfbf;*/
+    background:#fff;
+	width:95%;
+	padding:0px 0px;
+    box-shadow: 0px 5px 10px 0px #888888;
+	margin:0 auto;
+
+}
+.clear
+{
+    clear:both;
+}
+header
+{
+    background: rgba(118,154,99,0.82);
+    background-image: url(../assets/header.jpg);
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+    /*padding-top: 10px;*/
+    padding-bottom: 10px;
+    height: 300px;
+    box-shadow: 0px 5px 20px 0px #888888;
+}
+nav ul
+{
+    list-style: none;
+    height: 30px;
+    margin-bottom: 5px;
+    background-color: rgba(0,0,0,0);
+    height: 40px;
+}
+nav ul li
+{
+    float:right;
+    padding-left:1px;
+    
+}
+nav ul li a
+{   
+    text-decoration: none;
+    display: block; 
+    padding:0 20px;
+    line-height: 40px;
+    font-size: 17px;
+    font-family:"Comic Sans MS";
+    background-color: rgba(0,0,0,0);
+    /*border-bottom:2px solid #304777;*/
+    width:auto;
+    text-align: center;
+    color:white;
+}
+nav ul li a:hover ,nav ul li a.selected
+{
+    color:rgba(225,225,225,1);
+    background-color: rgba(169,169,169,0.3);
+    border-radius: 0 0 7px 7px;
+}
+header h1
+{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    color:  rgba(255,255,255,1);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+header h1 span
+{
+    display: inline-block;
+    padding: 0.5em 0.5em;
+    border: rgba(255,255,255,0.95) solid 5px;
+    border-radius: 15px 0 15px 0;
+
+}
+header p
+{
+    text-align: center;
+    font-size: 21px;
+    font-weight: 600;
+    color:  rgba(255,255,255,0.95);
+    letter-spacing: 0.05em;
+    font-family: "Monotype Corsiva";
+}
+section h2
+{
+    font-family: 'Dancing Script','Comic Sans MS';
+    text-align: center;
+    font-size: 24px;
+    color:rgba(63, 81, 181, 1);
+    letter-spacing: 0.02em;
+}
+section div.Picbox
+{
+    max-width: 240px;
+    display: flex;
+    margin:0 auto;
+}
+section div.Picbox div.myPic
+{   
+    background-image: url(../assets/mypic2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /*padding-top: 10px;*/
+    padding-bottom: 10px;
+    height: 300px;
+    width:240px;
+    border-radius: 0 20px 0 20px;
+    box-shadow:4px 2px 11px 2px #888888;
+}
+article pre
+{
+    font-family: 'Dancing Script','Comic Sans MS';
+    font-size: 25px;
+    color:rgb(156, 39, 176);
+    letter-spacing: 0.02em;
+}
+article pre a.mail
+{
+    text-decoration: none;
+}
+article pre span
+{
+    font-size: 35px;
+    color:#d81b60;
+}
+article pre img
+{
+    height: 60px;
+    width: 60px;
+}
+article pre span.ques
+{
+    font-size: 30px;
+    color:#d81b60;
+}
+
+article div.textbox
+{
+    max-width: 600px;
+    display: flex;
+    margin:0 auto;
+}
+article div.textbox div.text
+{   
+    padding-bottom: 10px;
+    height: 150px;
+    width:600px;
+    font-family: 'Satisfy','Comic Sans MS';
+    font-size: 21px;
+    color: #9C27B0;
+}
+article h1,h2
+{
+    font-family: 'Satisfy';
+    text-align: center;
+}
+
+form
+{
+    max-width: 500px;
+    margin: 0 auto 100px;
+    padding: 0 20px;
+}
+form input
+{
+    border:0;
+    outline: 0;
+    border-bottom:3px solid #4CAF50;
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px; 
+}
+form label.name
+{
+    float:left;
+    width:45%;
+}
+form label.mail
+{
+    float:right;
+    width: 45%
+}
+/*form input:focus, form textarea:focus {
+      outline: none;
+      border-color: #e1c285; }*/
+form textarea 
+{
+    border:0;
+    outline: 0;
+    border-bottom: 3px solid #4CAF50;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 18px;
+    height: 60px;
+    resize: none; 
+}
+
+
+form label 
+{
+    display: block;
+    margin-bottom: 20px; 
+}
+form fieldset
+{
+    text-align: right;
+    padding: 0;
+    border:0;
+
+}
+form [type="submit"] 
+{
+    background: rgba(85, 195, 47, 0.8);
+    color: white;
+    font-family: 'Monotype Corsiva';
+    font-size: 22px;
+    text-transform: uppercase;
+    width: 30%; 
+    border-radius: 10px 0 10px 0;
+}
+form [type="submit"]:hover 
+{
+      background: #aed581 
+}
+footer
+{
+    text-align: right;
+    background: rgba(0,0,0,0.85);
+    color: rgba(225,225,225,0.85);
+    padding: 10px;
+    font-family: 'Monotype Corsiva';
+    font-size: 1.34em;
+}
