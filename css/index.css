@@ -235,7 +235,7 @@ form [type="submit"]:hover
 }
 footer
 {
-    text-align: right;
+    
     background: rgba(0,0,0,0.85);
     color: rgba(225,225,225,0.85);
     padding: 10px;
