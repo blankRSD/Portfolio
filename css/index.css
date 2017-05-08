@@ -89,11 +89,10 @@ header p
 }
 section h2
 {
-    font-family: 'Dancing Script','Comic Sans MS';
+    font-family: 'Comic Sans MS';
     text-align: center;
     font-size: 24px;
     color:rgba(63, 81, 181, 1);
-    letter-spacing: 0.02em;
 }
 section div.Picbox
 {
@@ -151,8 +150,8 @@ article div.textbox div.text
     padding-bottom: 10px;
     height: 150px;
     width:600px;
-    font-family: 'Satisfy','Comic Sans MS';
-    font-size: 21px;
+    font-family:'Comic Sans MS';
+    font-size: 18px;
     color: #9C27B0;
 }
 article h1,h2
