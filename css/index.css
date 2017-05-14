@@ -16,6 +16,12 @@ body
 {
     clear:both;
 }
+@media screen and (min-width: 683px) {
+    #wrap
+    {
+        width:1297.7px;
+    }
+}
 
 /*---------------------------------------------------------------*/
 header
